@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="sequential/conv2d_1/Relu" out_port_id="0"/>
+		<IR id="11" name="sequential/conv2d_1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential/dense_1/MatMul" out_port_id="0"/>
+		<IR id="28" name="sequential/dense_1/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/dense_1/MatMul/ReadVariableOp" out_port_id="0"/>
+		<IR id="27" name="sequential/dense_1/MatMul/1_port_transpose648_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential/conv2d_2/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="13" name="sequential/conv2d_2/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential/dense/MatMul/ReadVariableOp" out_port_id="0"/>
+		<IR id="22" name="sequential/dense/MatMul/1_port_transpose652_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential/flatten/Const" out_port_id="0"/>
+		<IR id="20" name="sequential/flatten/Reshape/Cast_1897_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential/conv2d_1/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="7" name="sequential/conv2d_1/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential/conv2d/Conv2D" out_port_id="0"/>
+		<IR id="2" name="sequential/conv2d/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/conv2d/Relu" out_port_id="0"/>
+		<IR id="5" name="sequential/conv2d/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential/conv2d/BiasAdd" out_port_id="0"/>
+		<IR id="4" name="sequential/conv2d/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/conv2d_1/Conv2D" out_port_id="0"/>
+		<IR id="8" name="sequential/conv2d_1/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/flatten/Reshape" out_port_id="0"/>
+		<IR id="21" name="sequential/flatten/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/conv2d_2/Relu" out_port_id="0"/>
+		<IR id="19" name="sequential/conv2d_2/Relu/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/max_pooling2d_1/MaxPool" out_port_id="0"/>
+		<IR id="12" name="sequential/max_pooling2d_1/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential/conv2d_2/BiasAdd" out_port_id="0"/>
+		<IR id="16" name="sequential/conv2d_2/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Identity" out_port_id="0"/>
+		<IR id="30" name="sequential/dense_1/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/dense_1/BiasAdd" out_port_id="0"/>
+		<IR id="30" name="sequential/dense_1/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/conv2d/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="1" name="sequential/conv2d/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential/dense/MatMul" out_port_id="0"/>
+		<IR id="23" name="sequential/dense/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/dense/Relu" out_port_id="0"/>
+		<IR id="26" name="sequential/dense/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential/dense/BiasAdd" out_port_id="0"/>
+		<IR id="25" name="sequential/dense/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/conv2d_2/Conv2D" out_port_id="0"/>
+		<IR id="14" name="sequential/conv2d_2/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="sequential/max_pooling2d/MaxPool" out_port_id="0"/>
+		<IR id="6" name="sequential/max_pooling2d/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="sequential/conv2d_1/BiasAdd" out_port_id="0"/>
+		<IR id="10" name="sequential/conv2d_1/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="x" out_port_id="0"/>
+		<IR id="0" name="x" out_port_id="0"/>
+	</map>
+</mapping>
